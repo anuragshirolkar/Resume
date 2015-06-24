@@ -1,0 +1,239 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=prv_resume2 2015.2.7)  7 FEB 2015 15:37
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**&prv_resume2 _region_.tex
+(./_region_.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+CUSTOMISED FORMAT. Preloaded files:
+        .
+    book.cls    2007/10/19 v1.4h Standard LaTeX document class
+    bk11.clo    2007/10/19 v1.4h Standard LaTeX file (size option)
+  xcolor.sty    2007/01/21 v2.11 LaTeX color extensions (UK)
+   color.cfg    2007/01/18 v1.5 color configuration of teTeX/TeXLive
+  pdftex.def    2011/05/27 v0.06d Graphics/color for pdfTeX
+infwarerr.sty    2010/04/08 v1.3 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+geometry.sty    2010/09/12 v5.6 Page Geometry
+  keyval.sty    1999/03/16 v1.13 key=value parser (DPC)
+   ifpdf.sty    2011/01/30 v2.3 Provides the ifpdf switch (HO)
+  ifvtex.sty    2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+ ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+        .
+No file _region_.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+(/home/anuragshirolkar/.emacs.d/elpa/auctex-11.88.2/latex/preview.sty
+Package: preview 2010/02/14 11.88 (AUCTeX/preview-latex)
+
+(/home/anuragshirolkar/.emacs.d/elpa/auctex-11.88.2/latex/prtightpage.def
+\PreviewBorder=\dimen111
+)
+(/home/anuragshirolkar/.emacs.d/elpa/auctex-11.88.2/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count92
+\hfuzz=\dimen112
+(/home/anuragshirolkar/.emacs.d/elpa/auctex-11.88.2/latex/prauctex.cfg))
+(/home/anuragshirolkar/.emacs.d/elpa/auctex-11.88.2/latex/prfootnotes.def)
+\pr@snippet=\count93
+\pr@box=\box26
+\pr@output=\toks16
+
+Preview: Fontsize 10.95pt
+Preview: PDFoutput 1
+) (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count94
+\scratchdimen=\dimen113
+\scratchbox=\box27
+\nofMPsegments=\count95
+\nofMParguments=\count96
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count97
+\MPscratchDim=\dimen114
+\MPnumerator=\count98
+\makeMPintoPDFobject=\count99
+\everyMPtoPDFconversion=\toks18
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 430.00462pt, 110.57425pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=505.89pt
+* \textheight=686.56499pt
+* \oddsidemargin=-21.68121pt
+* \evensidemargin=-21.68121pt
+* \topmargin=28.90755pt
+* \headheight=-36.135pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=36.135pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ !name(resume2.tex) !offset(-3) 
+! Preview: Snippet 1 started.
+<-><->
+      
+l.20 \section
+             *{ACADEMIC ACHIEVEMENTS}
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+! Preview: Snippet 1 ended.(647495+0x33154007).
+<-><->
+      
+l.20 \section*{ACADEMIC ACHIEVEMENTS}
+                                     
+Not a real error.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
+
+! Preview: Snippet 2 started.
+<-><->
+      
+l.38 \section
+             *{WORK EXPERIENCE}
+Not a real error.
+
+! Preview: Snippet 2 ended.(647495+0x33154007).
+<-><->
+      
+l.38 \section*{WORK EXPERIENCE}
+                               
+Not a real error.
+
+[2]
+! Preview: Snippet 3 started.
+<-><->
+      
+l.58 \section
+             *{ACADEMIC PROJECTS}
+Not a real error.
+
+! Preview: Snippet 3 ended.(647495+0x33154007).
+<-><->
+      
+l.58 \section*{ACADEMIC PROJECTS}
+                                 
+Not a real error.
+
+[3]
+! Preview: Snippet 4 started.
+<-><->
+      
+l.105 \section
+              *{CODING AND DEVELOPMENT}
+Not a real error.
+
+! Preview: Snippet 4 ended.(647495+0x33154007).
+<-><->
+      
+l.105 \section*{CODING AND DEVELOPMENT}
+                                       
+Not a real error.
+
+[4]
+Missing character: There is no â in font cmbx10!
+Missing character: There is no € in font cmbx10!
+Missing character: There is no ™ in font cmbx10!
+
+! Preview: Snippet 5 started.
+<-><->
+      
+l.127 \section
+              *{PRACTICAL SKILLS}
+Not a real error.
+
+! Preview: Snippet 5 ended.(647495+0x33154007).
+<-><->
+      
+l.127 \section*{PRACTICAL SKILLS}
+                                 
+Not a real error.
+
+[5]
+! Preview: Snippet 6 started.
+<-><->
+      
+l.141 \section
+              *{FIELDS OF RESEARCH INTEREST}
+Not a real error.
+
+! Preview: Snippet 6 ended.(647495+0x33154007).
+<-><->
+      
+l.141 \section*{FIELDS OF RESEARCH INTEREST}
+                                            
+Not a real error.
+
+[6]
+! Preview: Snippet 7 started.
+<-><->
+      
+l.154 \section
+              *{CO-CURRICULAR ACTIVITIES}
+Not a real error.
+
+! Preview: Snippet 7 ended.(647495+0x33154007).
+<-><->
+      
+l.154 \section*{CO-CURRICULAR ACTIVITIES}
+                                         
+Not a real error.
+
+[7] ) 
+Here is how much of TeX's memory you used:
+ 532 strings out of 493399
+ 7393 string characters out of 6160226
+ 95295 words of memory out of 5000000
+ 5368 multiletter control sequences out of 15000+600000
+ 9729 words of font info for 34 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 22i,5n,22p,210b,159s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+Output written on _region_.pdf (7 pages, 14162 bytes).
+PDF statistics:
+ 32 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

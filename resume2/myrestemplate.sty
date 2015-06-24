@@ -1,0 +1,30 @@
+
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{sectsty}
+\usepackage{xifthen}
+
+\newcommand{\name}[2]{
+\textbf{\color{#2} {\fontsize{50}{60}\selectfont {#1}}}
+}
+
+
+\newenvironment{ressection}[2]{
+\section*{\color{#2} #1}
+\hrule
+\medskip
+\vspace{2mm}
+}{
+\vspace{-3mm}
+
+}
+
+\newenvironment{ressubsection}[3]{
+\noindent \textbf{#1} \hfill {#2}
+\ifthenelse{\equal{#3}{}}{}{\\{#3}}
+\vspace{-2mm}
+}{
+
+}
