@@ -11,20 +11,42 @@
 }
 
 
-\newenvironment{ressection}[2]{
+\newenvironment{ressectionold}[2]{
 \section*{\color{#2} #1}
-\vspace{-1mm}
+\vspace{-2mm}
 \hrule
 \medskip
-\vspace{1mm}
+
 }{
 \vspace{-5mm}
 
 }
 
-\newenvironment{ressubsection}[3]{
+\newenvironment{ressubsectionold}[3]{
 \noindent \textbf{#1} \hfill {#2}
 \ifthenelse{\equal{#3}{}}{}{\\{#3}}
+\vspace{-3mm}
+}{
+\vspace{-1mm}
+}
+
+
+\newenvironment{ressection}[2]{
+\section*{\color{#2} #1}
+\vspace{-2mm}
+\hrule
+\medskip
+}{
+\vspace{-7mm}
+
+}
+
+\newenvironment{ressubsection}[4]{
+
+
+\noindent\hbox to #4\textwidth{\textbf{#1}\hfill} \hfill #3 \hfill #2
 \vspace{-2mm}
 }{
 }
+  
+

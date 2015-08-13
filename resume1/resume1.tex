@@ -1,122 +1,157 @@
-\documentclass[11pt]{book} %Sets the default text size to 11pt and class to article.
-\usepackage{xcolor}
+\documentclass[11pt,a4paper]{article} %Sets the default text size to 11pt and class to article.
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{sectsty}
+\usepackage{myres1template}
 %------------------------Dimensions--------------------------------------------
-\topmargin=0.6in %length of margin at the top of the page (1 inch added by default)
+\topmargin=0.4in %length of margin at the top of the page (1 inch added by default)
 \oddsidemargin=-0.3in %length of margin on sides for odd pages
-\evensidemargin=0in %length of margin on sides for even pages
+\evensidemargin=-0.5in %length of margin on sides for even pages
 \textwidth=7.0in %How wide you want your text to be
 \marginparwidth=0.5in
-\headheight=0pt %1in margins at top and bottom (1 inch is added to this value by default)
+\headheight=-0.75in %1in margins at top and bottom (1 inch is added to this value by default)
 \headsep=0pt %Increase to increase white space in between headers and the top of the page
-\textheight=9.0in %How tall the text body is allowed to be on each page
+\textheight=10.5in %How tall the text body is allowed to be on each page
 \pagenumbering{gobble}
+
+\sectionfont{\fontsize{11}{14}\selectfont}
+
 \begin{document}
+
+
+%%%%%%%%%%%%%%%%%%% COMMENTED  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\iffalse
+\begin{minipage}[t]{10cm}
+\flushleft
+\name{Anurag Shirolkar}{Black}\\
+\vspace{2mm}
+Computer Science \& Engineering\\
+Indian Institute of Technology Bombay
+\end{minipage}
+\hfill
+\begin{minipage}[t]{7cm}
+\flushright
+120050003\\
+UG Third Year (B.Tech.)\\
+CPI: 8.05\\
+\href{mailto:ashirolkar47@gmail.com}{ashirolkar47@gmail.com}
+\href{http://www.cse.iitb.ac.in/~anuragshirolkar}{www.cse.iitb.ac.in/\textasciitilde anuragshirolkar}
+\end{minipage}
+\fi
+%%%%%%%%%%%%%%%%%%% COMMENTED  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace*{2.6cm}
 
 % SECTION ACADEMIC ACHIEVEMENTS
 
-\section*{ACADEMIC ACHIEVEMENTS}
-\vspace{-2mm}
-\hrule
-\medskip
+
+\begin{ressection}{INTERNSHIPS AND RESEARCH}{Black}
+
+\begin{ressubsectionold}{Microsoft India R\&D - Software Developer Intern}{Summer'15}{}
 \begin{itemize}
 \itemsep-0.3em
-\item Secured an All India Rank of {\bf 290} in {\bf IITJEE 2012} among {\bf 5 lakh} aspirants
-\item Secured {\bf 95.64\%} in matriculation and {\bf 85.83\%} in intermediate/+2 conducted by Maharashtra state board\item Secured {\bf 17\textsuperscript{th}} position in {\bf Indian National Mathematical Olympiad 2011} conducted by NBHM and Attended 
-{\bf IMO Training Camp 2011} conducted by HBCSE, Mumbai\item Awarded a Gold Medal in {\bf Indian National Physics Olympiad 2012} and Attended {\bf International Physics 
-Olympiad Training Camp 2012} conducted by HBCSE, Mumbai\item Qualified for {\bf KVPY 2011-12} fellowship with {\bf AIR 215}
-%\item Secured {\bf 8\textsuperscript{th}} position in Maharashtra state in Highschool scholarship Examination conducted by Maharashtra state board
+\item Developed a \textbf{Cross Device Productivity Application} in Android and Windows Universal App Framework
+\item Worked on Windows Azure Service Bus and Mobile Service to Handle the backend for the application
 \end{itemize}
-\vspace{-8mm}
+\end{ressubsectionold}
 
-\section*{WORK EXPERIENCE}
-\vspace{-2mm}
-\hrule
-\medskip
 
-\noindent \textbf{Software Developer, Function Space} \hfill Summer'14
-%\textit{Guide:} \textbf{Mr. Adit Gupta}
-\vspace{-3mm}
+\begin{ressubsectionold}{Implementation and analysis of distributed algorithms in Machine Learning}{Ongoing}{\textit{Guide:} \textbf{Prof. Ganesh Ramakrishnan} \hfill B.Tech Project}
+
+\begin{itemize}
+\itemsep-0.3em
+\item Working on implementation of distributed stochastic optimization on large data-set for binary classification using Spark and Akka tool
+\end{itemize}
+\end{ressubsectionold}
+
+\begin{ressubsectionold}{Software Developer, Function Space}{Summer'14}{}
 \begin{itemize}
 \itemsep-0.3em
 \item Implemented a \textbf{Document Classifier} in python using \textbf{Maximum Entropy Classification Algorithm}
-\item \textbf{D3.js} library to create User Interface with Dynamic and Interactive Components for data visualization
 \end{itemize}
-\vspace{-1mm}
+\end{ressubsectionold}
 
-\noindent \textbf{Web Developer, Infermap} \hfill Nov'13-Feb'13
-\vspace{-3mm}
+
+\end{ressection}
+
+\begin{ressection}{KEY PROJECTS}{Black}
+
+  
+\begin{ressubsection}{Compiler}{Jan'15-Apr-15}{\textit{Guide:} \textbf{Prof. Amitabha Sanyal}}{0.33}
 \begin{itemize}
 \itemsep-0.3em
-\item worked as \textbf{Web Developer} at \textbf{Infermap}, a web based educational portal launched in 2014, started by IITB students
+\item Incrementally designed a compiler in different stages for tokenizing, parsing, syntax-analysis and code generation using FlexC++ and BisonC++
 \end{itemize}
-\vspace{-8mm}
+\end{ressubsection}
 
-\section*{ACADEMIC PROJECTS}
-\vspace{-2mm}
-\hrule
-\medskip
-
-\noindent\hbox to 0.4\textwidth{\textbf{Conversion - Natural Language to SQL}\hfill} \hfill \textit{Guide:} \textbf{Prof. Dr. Pushpak Bhattacharyya} \hfill Ongoing
-\vspace{-3mm}
+\begin{ressubsection}{Conversion - English to SQL}{Aug'14-Nov'14}{\textit{Guide:} \textbf{Prof. Pushpak Bhattacharyya}}{0.4}
 \begin{itemize}
 \itemsep-0.3em
-\item Working on various aspects of \textbf{Natural Language Processing} for translating queries written in natural language to SQL
+\item Worked on various aspects of \textbf{Natural Language Processing} for translating queries written in natural language to SQL
+\item Implemented Machine Learning and Rule Based approach and compared their performances
 \end{itemize}
-\vspace{-1mm}
+\end{ressubsection}
 
-\noindent\hbox to 0.33\textwidth{\textbf{Chess}\hfill} \hfill \textit{Guide:} \textbf{Prof. Amitabha Sanyal} \hfill Mar'13-Apr'13
-
-\vspace{-3mm}
+\begin{ressubsection}{Remote Desktop Connection}{Aug'14-Nov'14}{\textit{Guide:} \textbf{Prof. Varsha Apte}}{0.28}
 \begin{itemize}
 \itemsep-0.3em
-\item Served as a \textbf{Team Leader} of a 3 member team
-\item Implemented \textbf{Mini-Max algorithm} with \textbf{Alpha-Beta pruning} in \textbf{MIT-scheme} for machine player with 
-moves optimized till 6 depth level of gameplay
+\item Program for browser based remote desktop connection for controlling desktop remotely
+\item Implemented socket connection between client browser and python server on remote desktop for communicating screenshots and client activity
 \end{itemize}
-\vspace{-1mm}
+\end{ressubsection}
 
-\noindent\hbox to 0.31\textwidth{\textbf{iNote - Handwriting to Text Converter}\hfill} \hfill \textit{Institute Technical Summer Project} \hfill Summer'13
-\vspace{-3mm}
+
+\begin{ressubsection}{Chess}{Mar'13-Apr'13}{\textit{Guide:} \textbf{Prof. Amitabha Sanyal}}{0.33}
 \begin{itemize}
 \itemsep-0.3em
-\item Built an \textbf{Android App} which takes notes in your handwriting and converts it to text
-\item Awarded \textbf{Best Research Project Award}
+\item Implemented single/double player chess in \textbf{MIT-scheme} using \textbf{Mini-Max algorithm} with \textbf{Alpha-Beta pruning}
 \end{itemize}
-\vspace{-1mm}
+\end{ressubsection}
 
-\noindent\hbox to 0.34\textwidth{\textbf{Steam Engine Simulation in Box2D} \hfill} \hfill \textit{Guide:} \textbf{Prof. Parag Chaudhuri} \hfill Mar'14-Apr'14
-\vspace{-3mm}
+\begin{ressubsection}{Transformer Animation}{Aug'14-Nov'14}{\textit{Guide:} \textbf{Prof. Parag chaudhuri}}{0.33}
 \begin{itemize}
 \itemsep-0.3em
-\item Simulated the motion of Steam Engine in \textbf{Box2D}, a Physics Simulation Engine based on OpenGL
-\item Used other tools like \textbf{gprof, gnuplot} to analyse and optimize the performace
+\item Modeled, textured and animated a transformer robot from scratch with OpenGL
 \end{itemize}
-\vspace{-1mm}
+\end{ressubsection}
 
-\noindent\hbox to 0.26\textwidth{\textbf{Fish Aquarium Simulator} \hfill} \hfill \textit{Guide:} \textbf{Prof. Abhiram Ranade} \hfill Oct'12
-
-\vspace{-2mm}
-\begin{itemize}
-\itemsep-0.1em
-\item An interactive virtual aquarium containing marine fishes swimming around in colorful habitat
-\item Designed and Developed in C++ with \textbf{graphical user interface}
-\end{itemize}
-\vspace{-8mm}
+\end{ressection}
 
 
-\section*{SKILLS AND CO-CURRICULAR ACTIVITIES}
-\vspace{-2mm}
-\hrule
-\medskip
+\begin{ressection}{SCHOLASTIC ACHIEVEMENTS}{Black}
+
 \begin{itemize}
 \itemsep-0.3em
-\item Skilled in \textbf{C++, MIT-Scheme, HTML, CSS, PHP, Python} and familiar with Haskel, Prolog, Android
-development (platform: Linux and Windows)
-\item Participated in \textbf{Yahoo! HackU 2013} and built a online community portal for business professionals
-\item Active user on online coding forums like HackerRank and SPOJ(Sphere Online Judge)
-\item Made an RC car for XLR8, a multi-terrain race for RC cars
-\item Successfully completed the course conducted by National Service Scheme
+\item Achieved \textbf{62nd} rank at Amritapuri onsite round of \textbf{ACM-ICPC 2014}
+\item Secured an All India Rank of {\bf 290} in {\bf IITJEE 2012} among {\bf Half a million} aspirants
+\item Attended Training Camp for \textbf{International Olympiads in Mathematics} (2011) and \textbf{Physics} (2012)
 \end{itemize}
-\textit{Homepage: www.cse.iitb.ac.in/\textasciitilde anuragshirolkar}
 
+\end{ressection}
+
+
+
+\begin{ressection}{POSITIONS OF RESPONSIBILITY}{Black}
+
+\begin{ressubsectionold}{Teaching Assistant}{Ongoing, Autumn'15}{\textbf{CS 101}:\textit{Computer Programming and Utilization}\\ Helping in Lab Supervision and conducting Remedial labs}\\
+
+\end{ressubsectionold}
+\vspace{2mm}
+\end{ressection}
+
+\begin{ressection}{SKILLS AND CO-CURRICULAR ACTIVITIES}{Black}
+
+\begin{itemize}
+\itemsep-0.3em
+\item Skilled in C++, MIT-Scheme, Android Programming, HTML, CSS, PHP, Python and familiar with Haskel, Prolog,
+Android development (platform: Linux and Windows)
+\item Active user on online coding forums like SPOJ(Sphere Online Judge) and Hackerrank
+\item Participated in Yahoo! HackU and Microsoft code.fun.do, 24 hours coding competitions
+\end{itemize}
+  
+\end{ressection}
+\vspace{4mm}
+\noindent \textit{Homepage: www.cse.iitb.ac.in/\textasciitilde anuragshirolkar}
 \end{document}
